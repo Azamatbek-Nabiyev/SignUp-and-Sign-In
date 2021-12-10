@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+/* FONTS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Otomanopee One', sans-serif;
+}
+*:focus{
+    outline: none;
+}
+.login_back{
+    height: 625px;
+    width: 100%;
+    background-image: linear-gradient(rgb(162, 80, 240), rgb(83, 83, 204));
+}
+.middle_div{
+    width: 80%;
+    height: 80%;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    transform: translateX(10%) translateY(10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left_div, .right_div{ 
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    border-top-left-radius: 20px;
+}
+.left_div img{
+    width: 100%;
+}
+.admin_text{
+    color: #000000;
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+.admin_text a {
+    font-size: 20px;
+    color: #696969;
+    text-decoration: none;
+}
+.input_group{
+    border: none;
+    width: 400px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20%);
+    margin: 70px 0px 20px 0px;
+    border-radius: 25px;
+    background-color: #CFD9ED;
+}
+.input_group input{
+    width: 330px;
+    margin: 5px;
+    height: 49px;
+    border: none;
+    background-color: #CFD9ED;
+    padding-left: 10px;
+}
+.input_group2{
+    border: none;
+    width: 400px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20%);
+    margin: 10px 0px 20px 0px;
+    border-radius: 25px;
+    background-color: #CFD9ED;
+}
+.input_group2 input{
+    width: 330px;
+    margin: 5px;
+    height: 49px;
+    border: none;
+    background-color: #CFD9ED;
+    padding-left: 10px;
+}
+.person_icon{
+    font-size: 35px !important;
+}
+button{
+    width: 350px;
+    height: 60px;
+    background-image: linear-gradient(rgb(162, 80, 240), rgb(83, 83, 204));
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transform: translateX(30%);
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 1px 1px 1px 1px grey;
+    transition: ease-out 0.3s ;
+}
+.forgot{
+    margin-top: 40px;
+    margin-left: 10%;
+    text-align: center;
+}
+.forgot p a {
+    margin-right: 30px;
+    text-decoration: none;
+    text-align: center;
+}
